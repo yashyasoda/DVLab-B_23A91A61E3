@@ -20,7 +20,7 @@ mean_ozone
 
 barplot(
   mean_ozone,
-  col = "blue",
+  col = "orange",
   main = "Average Monthly Ozone Concentration",
   xlab = "Month",
   ylab = "Mean Ozone (ppb)"
@@ -39,7 +39,7 @@ group_means
 barplot(
   group_means,
   beside = TRUE,
-  col = c("yellow", "orange"),
+  col = c("skyblue", "pink"),
   legend.text = TRUE,
   main = "Grouped Bar Chart: Ozone vs Solar Radiation"
 )
@@ -48,7 +48,7 @@ barplot(
 barplot(
   group_means,
   beside = FALSE,
-  col = c("yellow", "orange"),
+  col = c("skyblue", "pink"),
   legend.text = TRUE,
   main = "Stacked Bar Chart: Ozone vs Solar Radiation"
 )
