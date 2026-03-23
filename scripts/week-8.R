@@ -1,4 +1,4 @@
-#Load and understand the "matcars" Dataset
+#Load and understand the "mtcars" Dataset
 #Load dataset
 data(mtcars)
 
